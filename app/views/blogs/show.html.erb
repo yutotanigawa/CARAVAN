@@ -31,7 +31,7 @@
     </p>
   </div>
 </div>
- 
+
 <main class="clearfix">
   <section class="single-blog">
     <h2 class="blog-headline">Blog</h2>
@@ -39,13 +39,12 @@
       <h3 class="blog-box-headline">
         <%= @blog.title %>
       </h3>
-
       <div class="blog-box-content">
         <p class="category">
           <%= @blog.category %>
         </p>
         <p class="blog-date">
-          <%= blog.created_at %>
+          <%= @blog.created_at %>
         </p>
       </div>
 
@@ -53,10 +52,10 @@
       <p class="single-text">
         <%= @blog.body %>
       </p>
- 
+
       <a href="#">編集</a>
       <a href="#">削除</a>
- 
+
       <div class="author-case clearfix">
         <div class="author-image"></div>
         <div class="author-box">
@@ -66,7 +65,7 @@
       </div>
     </section>
   </section>
- 
+
   <div class="sidebar">
     <section class="popular">
       <h2 class="sidebar-headline">Popular</h2>
